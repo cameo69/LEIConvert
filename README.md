@@ -9,3 +9,29 @@ and this sample code https://github.com/dps/go-xml-parse/blob/master/go-xml-pars
 
 GLEIF data available here: https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy#/
 look for LEI-CDF v2.1 xml files
+
+
+
+Usage of ./LEIconvert:
+  -debug
+    	do a short run for debugging
+  -filter string
+    	file with all LEI to filter for (default "filter.txt")
+  -in string
+    	input file path (default "gleif-goldencopy-lei2-golden-copy.xml")
+  -missing string
+    	file that gets all missing LEIs (default "missing.txt")
+  -out string
+    	output file path (default "found.csv")
+
+
+
+Example Mac OS:
+./LEIconvert -in 20190830-0800-gleif-goldencopy-lei2-golden-copy.xml -out found.csv -filter filter.txt
+
+LEI Golden Copy XML converter v0.10
+Filter LEIs:  8815
+Remaining: 0s   Processed records: 1471988 (100.0%)   Found and written records: 8814/8815 (100.0%)                
+Not all LEI could be found:
+XYZ_DOES_NOX_EXIST
+Total processing time:  2m53s
