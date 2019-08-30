@@ -1,7 +1,7 @@
 package main
 
 /*
-LEIconvert by Dietrich
+LEIconvert by Dietrich Bubenheim
 https://github.com/cameo69/LEIConvert
 
 Converts GLEIF Golden Copy (LEIs) to csv file
