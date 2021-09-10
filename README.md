@@ -10,7 +10,7 @@ and this sample code https://github.com/dps/go-xml-parse/blob/master/go-xml-pars
 GLEIF data available here: https://www.gleif.org/en/lei-data/gleif-golden-copy/download-the-golden-copy#/
 look for LEI-CDF v2.1 xml files
 
-
+## Usage
 
 Usage of ./LEIconvert:
   -debug
@@ -26,7 +26,8 @@ Usage of ./LEIconvert:
 
 
 
-Example Mac OS:
+### Example Mac OS:
+```
 ./LEIconvert -in 20190830-0800-gleif-goldencopy-lei2-golden-copy.xml -out found.csv -filter filter.txt
 
 LEI Golden Copy XML converter v0.10
@@ -35,3 +36,4 @@ Remaining: 0s   Processed records: 1471988 (100.0%)   Found and written records:
 Not all LEI could be found:
 XYZ_DOES_NOX_EXIST
 Total processing time:  2m53s
+```
