@@ -12,17 +12,17 @@ look for LEI-CDF v2.1 xml files
 
 ## Usage
 
-Usage of ./LEIconvert:
-  -debug
-    	do a short run for debugging
-  -filter string
-    	file with all LEI to filter for (default "filter.txt")
-  -in string
-    	input file path (default "gleif-goldencopy-lei2-golden-copy.xml")
-  -missing string
-    	file that gets all missing LEIs (default "missing.txt"
-  -out string
-    	output file path (default "found.csv")
+Usage of `./LEIconvert`:
+  - `-debug`<br>
+    only do a short run for debugging
+  - `-filter <filename>`<br>
+    file with all LEI to filter for (default "filter.txt")
+  - `-in <filename>`<br>
+    input file path (default "gleif-goldencopy-lei2-golden-copy.xml")
+  - `-missing <filename>`<br>
+    file that gets all missing LEIs (default "missing.txt")
+  - `-out <filename>`<br>
+    output file path (default "found.csv")
 
 
 
